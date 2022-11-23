@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -e
 
 echo "Hi guys.."
 
@@ -10,3 +9,5 @@ if [ $# -lt 2 ]; then
   else
     echo "Nothing.."
 fi
+
+echo "Some more text added.."
